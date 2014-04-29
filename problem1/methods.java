@@ -1,20 +1,15 @@
-package methods;
-import java.util.Scanner;
-public class methods {
-	public static void main(String[] args)
-	{
-				
-{
-	{
+import java.util.*;
+
+class methods {
+
+	public static void main(String[] args) {
 		int menu = 0;
 		
 		Scanner Keyboard = new Scanner(System.in);
-		{
 			System.out.println("Welcome, please the shape you wish to find the area of: ");
 			System.out.println("[1]. Circle [2]. Triangle  [3]. Quadilateral ");
 			
 			
-			{
 				menu = Keyboard.nextInt();
 				switch (menu)
 				 
@@ -35,16 +30,9 @@ public class methods {
 				default:
 					System.out.println("We are sorry we did not get that." + "\n Thank you for using Jorge Gomez's Java Convertion machine.");
 				}
-				
-				}
-				
-					
-				}
 			}
 		
-		}
 
-}
 
 
 
@@ -82,8 +70,6 @@ public static void quadilateral()
 	a = b*h;
 	System.out.println(a);
 }
+
 }
-
-
-
 
